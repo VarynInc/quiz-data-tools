@@ -1,0 +1,17 @@
+# .gitignore for website projects
+*.log
+*.cab
+*.msi
+*.msm
+*.msp
+*.zip
+*.lnk
+.idea
+.DS_Store
+thumbs.db
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+node_modules/
+optimized-images/

@@ -1,0 +1,40 @@
+{
+    "name": "quiz-data-tools",
+    "version": "0.1.1",
+    "description": "A collection of data preparation tools for the quiz system.",
+    "main": "source/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node ./source/index.js",
+      "test": "jest test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VarynInc/quiz-data-tools.git"
+    },
+    "keywords": [
+      "quiz",
+      "data",
+      "flags",
+      "play"
+    ],
+    "author": "Varyn Inc.",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/VarynInc/quiz-data-tools/issues"
+    },
+    "homepage": "https://varyn.com",
+    "devDependencies": {
+      "chalk": "^5.3.0",
+      "fs-extra": "^11.2.0",
+      "glob": "^11.0.0",
+      "imagemin": "^9.0.0",
+      "imagemin-pngquant": "10.0.0",
+      "jest": "^29.7.0",
+      "path": "^0.12.7",
+      "rsync": "^0.6.1",
+      "shelljs": "^0.8.5",
+      "yargs": "^17.7.2"
+    }
+  }
+  
